@@ -24,7 +24,7 @@ export default {
   				foreground: 'hsl(var(--popover-foreground))'
   			},
   			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
+  				DEFAULT: "#405ef2",
   				foreground: 'hsl(var(--primary-foreground))'
   			},
   			secondary: {
@@ -53,7 +53,11 @@ export default {
   				'4': 'hsl(var(--chart-4))',
   				'5': 'hsl(var(--chart-5))'
   			}
-  		}
+  		},
+		  backgroundImage: {
+			'hero-img': "url('/house.png')",
+			'footer-texture': "url('/img/footer-texture.png')",
+		  }
   	}
   },
   plugins: [require("tailwindcss-animate")],
